@@ -5,9 +5,17 @@
   "author": "totemo69 <https://github.com/totemo69>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^7.0.6",
+    "express": "^4.16.1",
+    "web3": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
   }
 }

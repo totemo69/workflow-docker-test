@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/95f95861-2c18-4f48-b0a0-8723579ce72d/resourceGroups/burgh-akerun-test/providers/Microsoft.Web/sites/burgh-points-playground",
+    "appService.deploySubpath": "."
+}
